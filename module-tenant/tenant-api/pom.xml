@@ -5,18 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.lanjii</groupId>
-        <artifactId>lanjii</artifactId>
+        <artifactId>module-tenant</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>lanjii-modules</artifactId>
-    <packaging>pom</packaging>
-    <description>业务模块聚合</description>
+    <artifactId>tenant-api</artifactId>
+    <description>租户模块 - API接口定义</description>
 
-    <modules>
-        <module>module-system</module>
-        <module>module-tenant</module>
-        <module>module-ai</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.lanjii</groupId>
+            <artifactId>lanjii-common</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

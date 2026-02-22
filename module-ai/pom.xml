@@ -5,18 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.lanjii</groupId>
-        <artifactId>lanjii</artifactId>
+        <artifactId>lanjii-modules</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>lanjii-modules</artifactId>
+    <artifactId>module-ai</artifactId>
     <packaging>pom</packaging>
-    <description>业务模块聚合</description>
+    <description>AI模块 - 智能对话、知识库、RAG</description>
 
     <modules>
-        <module>module-system</module>
-        <module>module-tenant</module>
-        <module>module-ai</module>
+        <module>ai-api</module>
+        <module>ai-biz</module>
     </modules>
 
 </project>
